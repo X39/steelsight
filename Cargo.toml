@@ -1,0 +1,9 @@
+[package]
+name = "steelsight"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+minifb = "0.28.0"
+rgb = "0.8.20"
+opencv = { version = "0.94.2", features = ["default", "imgproc", "imgcodecs", "rgb"] }
